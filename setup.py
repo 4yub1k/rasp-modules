@@ -11,7 +11,7 @@ setuptools.setup(
     description="It contains modules for raspberry PI.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    license='LICENSE',
+    license='MIT',
     url="https://github.com/4yub1k/rasp-modules",
     keywords=["rasberry", "rasberrypi", "rasberry pi"],
     project_urls={
