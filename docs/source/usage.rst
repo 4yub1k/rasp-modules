@@ -32,9 +32,10 @@ Import MCP3008
    from analogue.mcp3008 import MCP3008
 
    adc_mcp3008 = MCP3008(max_speed_hz=1_000_000)
+   adc = adc_mcp3008.read_channel(channel=0)   # Channel number on MCP
 
-   lcd.cursor_start(0, 0)
-   lcd.print_line(adc_mcp3008)  # "Message string
+   lcd.cursor_start(0, 0)                      # cursor_start(start, row_number)
+   lcd.print_line(adc)                         # "Message string
 
 .. image:: exam2.png
    :align: center
