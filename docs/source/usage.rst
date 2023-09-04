@@ -9,7 +9,7 @@ Import LCD
    :caption: main.py
    :linenos:
 
-    from lcd import LCD
+    from display.lcd import LCD
 
     lcd = LCD(5, 6, 12, 13, 16, 19)
     or
@@ -27,7 +27,7 @@ Import MCP3008
    :caption: main.py
    :linenos:
 
-    from mcp3008 import MCP3008
+    from analogue.mcp3008 import MCP3008
 
     adc_mcp3008 = MCP3008(max_speed_hz=1_000_000)
 
